@@ -23,8 +23,30 @@
             display: flex;
             justify-content: space-between;
             gap: 30px;
-
-
+            .creds{
+                display: inline-block;
+                line-height: 61px;
+                text-align: center;
+                text-decoration: none;
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                color: #000000;
+        
+            }
+            .creds::after{
+                content:'';
+                width:0%;
+                height: 2px;
+                background:#000000;
+                display:block;
+                margin: auto;
+                transition: 0.5s;
+            }
+            .creds:hover::after{
+                width:100%;
+            }
             h2 {
                 font-family: 'Open Sans';
                 font-style: normal;
