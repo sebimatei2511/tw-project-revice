@@ -1,0 +1,89 @@
+.panel {
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #84CEEB;
+    height: 1080px;
+
+    .login-panel {
+        position: relative;
+        padding: 25px;
+        width: 550px;
+        height: 750px;
+        margin: 0 auto;
+        top: 50px;
+        border: 1px solid #000000;
+        align-content: center;
+        background-color: #C1C8E4;
+        border-radius: 25px;
+    }
+
+    h1 {
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 61px;
+        color: #000000;
+    }
+
+    .flex-container-login {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 100px 50px 0;
+
+        .credential-element {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .line-to-complete {
+            opacity: 0.3;
+            border-block: 1px solid #000000;
+        }
+    }
+
+    h2 {
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 61px;
+        color: #000000;
+    }
+
+    h3 {
+        text-align: end;
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 61px;
+        color: #000000;
+    }
+
+    .login-button {
+        margin: 0 auto;
+        width: 406px;
+        height: 55px;
+        background: linear-gradient(180deg, #7D48DD 0%, #49D3F1 100%);
+        border-radius: 50px;
+        border: 1px solid #000000;
+    }
+
+    h4 {
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 55px;
+        color: #000000;
+    }
+}
