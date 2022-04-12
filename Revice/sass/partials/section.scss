@@ -9,21 +9,24 @@
     justify-content: space-around;
 
 
-    .section-element {
-        margin: 10px 0;
+    .filterBtn {
+        display: inline-block;
+        margin: 10px 0 10px 0;
         background: #5AB9EA;
         width: 200px;
+        line-height: 55px;
         border-radius: 50px;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        color: #000000;
 
-            a {
-                text-align: center;
-
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 25px;
-                line-height: 61px;
-                color: #000000;
-            }
+    }
+    .filterBtn:hover{
+        background-color: #085bd8;
+        transition: 1s;
     }
 }
