@@ -1,7 +1,7 @@
 # TW-Project
 
 
-Sebi 16.04 - ora 01:17 - aranjate gap-urile in login.scss, pus link corect pt butonul cancel, corectate mici lucruri referitoare la scalare in diferite locuri >> deci luati toate fisierele for safety
+Sebi 16.04 - ora 01:17 - aranjate gap-urile in login.scss, pus link corect pt butonul cancel, identat codul, corectate mici lucruri referitoare la scalare in diferite locuri >> deci luati toate fisierele for safety 
 
 Rares -15.04 - ora 20:00 - modificat login.html, panel.scss, si in productDetails.html link-ul pt login pentru ca nu era pus.
 
