@@ -1,5 +1,5 @@
 .products {
-    max-width: 1920px;
+    //max-width: 1920px;
     width: 100%;
     background-color: #84CEEB;
     background-position: center;
@@ -10,47 +10,63 @@
 .products-list {
     display: flex;
     gap: 120px;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    //margin-top: 120px;
+    //margin-bottom: 120px;
+    margin: 120px auto;
     flex-direction: column;
     align-items: center;
+    max-width: 1200px;
 }
 
 .products-elements {
     position: relative;
+    max-height: 400px;
     display: flex;
+    gap: 80px;
     flex-direction: row;
-    width: 720px;
-    height: 400px;
+    //width: 30%;
+    //height: 400px;
     background: #8860D0;
     border-radius: 10px;
+    padding: 80px;
 }
 
 .child {
     flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 
     img {
-        margin: 84px 40px;
-        width: 300px;
-        height: 230px;
+        max-height: 400px;
+        min-height: 50px;
+    }
+
+    p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        word-break: break-word;
+        color: black;
+        height: 300px;
+        overflow-y: auto;
+        text-align: justify;
     }
 }
 
-.child-text {
-    padding: 40px 40px 40px 0;
-    color: black;
-    word-break: break-all;
-    flex: 50%;
-    margin-left: 50px;
-}
+/* Track */
+
+
 
 .detailsBtn {
-    display: block;
-    margin: auto 30px 10px 30px;
+    //display: block;
+    padding: 10px;
     background: #FFE28A;
-    width: 300px;
-    height: 44px;
-    line-height: 44px;
+    width: 250px;
+    //height: 44px;
+    line-height: 40px;
     border-radius: 50px;
     text-align: center;
     text-decoration: none;
@@ -59,11 +75,32 @@
     font-weight: 500;
     font-size: 25px;
     color: #000000;
-    justify-content: space-around;
+    //justify-content: space-around;
 }
 
 .detailsBtn:hover {
     background-color: #FFC621;
     transition: 1s;
     text-decoration: none;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #808080;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
