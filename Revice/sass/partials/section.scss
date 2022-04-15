@@ -1,20 +1,16 @@
 .section {
     position: relative;
     width: 100%;
-    //max-width: 1920px;
-    //height: 75px;
     background-color: #C1C8E4;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 
     .filterBtn {
         display: inline-block;
         margin: 15px 0 15px 0;
         background: #5AB9EA;
         width: 200px;
-        //line-height: 55px;
         padding: 10px ;
         border-radius: 50px;
         text-align: center;

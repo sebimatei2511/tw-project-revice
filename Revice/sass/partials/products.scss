@@ -1,5 +1,4 @@
 .products {
-    //max-width: 1920px;
     width: 100%;
     background-color: #84CEEB;
     background-position: center;
@@ -10,8 +9,6 @@
 .products-list {
     display: flex;
     gap: 120px;
-    //margin-top: 120px;
-    //margin-bottom: 120px;
     margin: 120px auto;
     flex-direction: column;
     align-items: center;
@@ -24,8 +21,6 @@
     display: flex;
     gap: 80px;
     flex-direction: row;
-    //width: 30%;
-    //height: 400px;
     background: #8860D0;
     border-radius: 10px;
     padding: 80px;
@@ -58,14 +53,10 @@
 
 /* Track */
 
-
-
 .detailsBtn {
-    //display: block;
     padding: 10px;
     background: #FFE28A;
     width: 250px;
-    //height: 44px;
     line-height: 40px;
     border-radius: 50px;
     text-align: center;
@@ -74,8 +65,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
-    color: #000000;
-    //justify-content: space-around;
+    color: #000000;;
 }
 
 .detailsBtn:hover {
