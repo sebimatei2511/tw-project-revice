@@ -3,29 +3,49 @@
     width: 100%;
     height: 100px;
     background-color: #8860D0;
+    //padding: 20px;
+
+    @media (max-width: $phone-max) {
+        height: 70px;
+    }
 
     .header-content {
         display: flex;
         justify-content: space-between;
         padding: 20px;
 
+        @media (max-width: $phone-max) {
+            padding: 10px;
+        }
+
         h1 {
             font-family: 'Open Sans';
             font-style: italic;
             font-weight: 600;
-            font-size: 45px;
-            line-height: 61px;
+            //font-size: 45px;
+            //line-height: 61px;
             color: #000000;
+            margin: 0;
+
+            @media (max-width: $phone-max) {
+                font-size: 40px;
+            }
         }
 
         .header-content-right {
             display: flex;
             justify-content: space-between;
             gap: 30px;
+            //padding-top: 20px;
+
+            @media (max-width: $phone-max) {
+                gap: 15px;
+                margin: auto 0;
+            }
 
             .creds {
                 display: inline-block;
-                line-height: 61px;
+                //line-height: 61px;
                 text-align: center;
                 text-decoration: none;
                 font-family: 'Open Sans';
@@ -54,9 +74,24 @@
                 font-style: normal;
                 font-weight: 500;
                 font-size: 30px;
-                line-height: 61px;
+                //line-height: 61px;
                 color: #000000;
+                //margin: 0;
+                margin: auto;
+
+                @media (max-width: $phone-max) {
+                    font-size: 20px;
+                }
             }
+        }
+
+        a {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 35px;
+            color: #000000;
         }
     }
 
@@ -65,7 +100,7 @@
         flex-direction: column;
         justify-content: center;
         row-gap: 4px;
-        margin-bottom: 20px;
+        //margin-bottom: 20px;
 
         span {
             background-color: #000000;

@@ -13,6 +13,10 @@
     flex-direction: column;
     align-items: center;
     max-width: 1200px;
+
+    @media (max-width: $phone-max) {
+        margin: 60px auto;
+    }
 }
 
 .products-elements {
@@ -24,6 +28,12 @@
     background: #8860D0;
     border-radius: 10px;
     padding: 80px;
+
+    @media (max-width: $phone-max) {
+        gap: 40px;
+        padding: 40px;
+        margin: 0 40px;
+    }
 }
 
 .child {
@@ -31,7 +41,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     img {
         max-height: 400px;
@@ -48,6 +58,12 @@
         height: 300px;
         overflow-y: auto;
         text-align: justify;
+
+
+        @media (max-width: $phone-max) {
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
     }
 }
 
@@ -65,7 +81,11 @@
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
-    color: #000000;;
+    color: #000000;
+
+    @media (max-width: $phone-max) {
+        line-height: 10px;
+    }
 }
 
 .detailsBtn:hover {

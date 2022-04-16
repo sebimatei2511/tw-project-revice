@@ -8,10 +8,10 @@
 
     .filterBtn {
         display: inline-block;
-        margin: 15px 0 15px 0;
+        margin: 15px 0;
         background: #5AB9EA;
         width: 200px;
-        padding: 10px ;
+        padding: 10px;
         border-radius: 50px;
         text-align: center;
         text-decoration: none;
@@ -20,6 +20,12 @@
         font-weight: 500;
         font-size: 25px;
         color: #000000;
+
+        @media (max-width: $phone-max) {
+            width: auto;
+            font-size: 15px;
+            margin: 10px 0;
+        }
     }
 
     .filterBtn:hover {
