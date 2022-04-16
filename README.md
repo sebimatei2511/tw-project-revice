@@ -1,5 +1,7 @@
 # TW-Project
 
+George 17.04 - ora 2:35 - crearea fisierului Scholarly HTML >> de revizuit anumite capitole impreuna si respectiv modificat
+
 
 Sebi 16.04 - ora 20:28 - rezolvate alte probleme referitoare la scalare si gap-uri, implementat responsive pe tot ce a fost pana acum >> descarcati iar toate fisierele
 
