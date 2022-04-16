@@ -9,21 +9,55 @@
 
 <body>
 
-    <section class="header">
-
+    <section class="header panel">
         <div class="header-content">
             <h1>Revice</h1>
             <div class="header-content-right">
-                <a href="#" class="creds">Sign up</a>
-                <a href="login.html" class="creds">Log in</a>
+                <!------    <a href="#" class="creds">Sign up</a>
+
+                <a href="login.html" class="creds">Log in</a> --->
+
+                <a href="login.html"><button onclick="style.display='block'" style="width:auto;">Sign up</button> </a>
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log in</button>
+
                 <h2>Username</h2>
                 <div class="hamburger">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
+
+
+                <!----- Modal-ul pt login-->
+                <div id="id01" class="modal">
+
+                    <div class="login-panel animate">
+                        <h1>Log in</h1>
+                        <div class="flex-container-login">
+                            <label for="uname"><h2>Username:</h2></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><h2>Password:</h2></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button type="submit">Login</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+
+                        </div>
+                        <div class="alternative">
+                            <h4>Or sign-up using</h4>
+                            <a href="index.html">Sign up.</a>
+                        </div>
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    </div>
+                </div>
+                <!----pana aici -->
+
             </div>
         </div>
+
     </section>
 
     <section class="section">
@@ -98,6 +132,19 @@
         </div>
 
     </section>
+
+    <!---- asta e pt atunci cand apesi langa modal sa se inchida-->
+    <script>
+        var modal = document.getElementById('id01');
+
+        window.onclick = function(event) {
+        if (event.target == modal) {
+        modal.style.display = "none";
+        }
+        }
+    </script>
+    <!---------------->
+
 
 </body>
 
