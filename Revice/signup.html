@@ -5,6 +5,7 @@
     <title>Revice</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -15,17 +16,22 @@
             <div class="header-content-right">
                 <!------    <a href="#" class="creds">Sign up</a>
 
-                <a href="login.html" class="creds">Log in</a> --->
+    <a href="login.html" class="creds">Log in</a> --->
 
                 <a href="signup.html"><button onclick="style.display='block'" style="width:auto;">Sign up</button> </a>
                 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log in</button>
 
                 <h2>Username</h2>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div id="myLinks">
+                    <ul>
+                        <li>
+                        <a href="#">Contact</a></li>
+                       <li> <a href="#">About Us</a></li>
+                    </ul>
                 </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
 
 
                 <!----- Modal-ul pt login-->
@@ -62,25 +68,33 @@
 
     <section class="panel">
         <div class="login-panel">
-            <h1>Log in</h1>
+            <h1>Sign Up</h1>
             <div class="flex-container-login">
-                <label for="uname"><h2>Username:</h2></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="signupUserName"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="signupUserName" required>
 
-                <label for="psw"><h2>Password:</h2></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
 
-                <button type="submit">Login</button>
+                <label for="psw-signup"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw-signup" required>
+
+                <label for="psw-confirm"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Confirm Password" name="psw-confirm" required>
+
+
                 <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                    <input type="checkbox" name="remember"> Do you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>?
                 </label>
+               
+
 
             </div>
-            <div class="alternative">
-                <h4>Or sign-up using</h4>
-                <a href="index.html">Sign up.</a>
+
+            <div class="clearfix">
+                <a href="index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+                <button type="submit" class="signupbtn">Sign Up</button>
             </div>
-            <a href="index.html"><button type="button" class="cancelbtn">Cancel</button></a>
         </div>
     </section>
 
