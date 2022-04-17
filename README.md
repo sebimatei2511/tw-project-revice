@@ -1,11 +1,14 @@
 # TW-Project
+
+
+
+Sebi 17.04 - ora 23:36 - rezolvat footer-ul si ce s-a mai discutat, implementat variabile pt culori ca sa nu le mai repetam, comentat burger menu-ul pana cand va fi functionabil, curatat&aranjat codul, totul bine
+
 Rares 17.04 - ora 18:50 - crearea paginii de sign up + burger menu partial >> toate fisierele trb descarcate
 
 George 17.04 -ora 17:46 - modificarea si completarea fisierului Scholarly HTML
 
-
 George 17.04 - ora 2:35 - crearea fisierului Scholarly HTML >> de revizuit anumite capitole impreuna si respectiv modificat
-
 
 Sebi 16.04 - ora 20:28 - rezolvate alte probleme referitoare la scalare si gap-uri, implementat responsive pe tot ce a fost pana acum >> descarcati iar toate fisierele
 
