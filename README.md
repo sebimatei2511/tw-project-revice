@@ -1,4 +1,6 @@
 # TW-Project
+Rares 17.04 - ora 18:50 - crearea paginii de sign up + burger menu partial >> toate fisierele trb descarcate
+
 George 17.04 -ora 17:46 - modificarea si completarea fisierului Scholarly HTML
 
 
