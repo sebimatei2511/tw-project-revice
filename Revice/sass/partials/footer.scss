@@ -1,2 +1,15 @@
-footer.website-footer {
+.footer{
+    position:fixed;
+    bottom:0;
+    right:0;
+    width: 100%;
+    height: 100px;
+    background-color: #370a8a;
+    text-align: center;
+    .p{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        color: #000000;
+            margin: 0;
+    }
 }
