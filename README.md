@@ -1,4 +1,6 @@
 # TW-Project
+George 17.04 -ora 17:46 - modificarea si completarea fisierului Scholarly HTML
+
 
 George 17.04 - ora 2:35 - crearea fisierului Scholarly HTML >> de revizuit anumite capitole impreuna si respectiv modificat
 
