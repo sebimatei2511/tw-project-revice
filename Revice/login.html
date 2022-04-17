@@ -11,24 +11,24 @@
 
     <section class="header panel">
         <div class="header-content">
-            <h1>Revice</h1>
+            <a href="index.html">Revice</a>
             <div class="header-content-right">
-                <!------    <a href="#" class="creds">Sign up</a>
-
-                <a href="login.html" class="creds">Log in</a> --->
-
-                <a href="signup.html"><button onclick="style.display='block'" style="width:auto;">Sign up</button> </a>
                 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log in</button>
-
                 <h2>Username</h2>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div id="myLinks">
+                    <ul>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li> <a href="#">About Us</a></li>
+                    </ul>
                 </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
 
+                <!-- Modal-ul pt login-->
 
-                <!----- Modal-ul pt login-->
                 <div id="id01" class="modal">
 
                     <div class="login-panel animate">
@@ -53,7 +53,8 @@
                         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
                     </div>
                 </div>
-                <!----pana aici -->
+
+                <!-- pana aici -->
 
             </div>
         </div>
@@ -81,6 +82,12 @@
                 <a href="index.html">Sign up.</a>
             </div>
             <a href="index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-content">
+            <h1>Web Technologies 2022 - UAIC</h1>
         </div>
     </section>
 

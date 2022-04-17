@@ -1,9 +1,9 @@
 .products {
     width: 100%;
-    background-color: #84CEEB;
+    background-color: $primary-color;
     background-position: center;
     background-size: cover;
-    position: absolute;
+    position: relative;
 }
 
 .products-list {
@@ -25,9 +25,11 @@
     display: flex;
     gap: 80px;
     flex-direction: row;
-    background: #8860D0;
+    background: $secondary-color;
     border-radius: 10px;
     padding: 80px;
+    border: 3px solid $mauve-darker;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     @media (max-width: $phone-max) {
         gap: 40px;
@@ -49,7 +51,7 @@
     }
 
     p {
-        font-family: 'Open Sans';
+        font-family: $primary-font;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -71,17 +73,19 @@
 
 .detailsBtn {
     padding: 10px;
-    background: #FFE28A;
+    background: $yellow-ish;
     width: 250px;
     line-height: 40px;
     border-radius: 50px;
     text-align: center;
     text-decoration: none;
-    font-family: 'Open Sans';
+    font-family: $primary-font;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
     color: #000000;
+    border: 3px solid $yellow-ish-darker;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     @media (max-width: $phone-max) {
         line-height: 10px;
@@ -89,7 +93,7 @@
 }
 
 .detailsBtn:hover {
-    background-color: #FFC621;
+    background-color: $yellow-ish;
     transition: 1s;
     text-decoration: none;
 }

@@ -1,16 +1,23 @@
 // colors
-$ocean-blue: #009dc4;
-$sunny-yellow: #fff917;
-$blood-red: #980002;
-$cement: #a5a391;
-$pencil-blue: #2200ff;
-$primary-color: $ocean-blue;
-$secondary-color: $sunny-yellow;
-$primary-text-color: $pencil-blue;
-$secondary-text-color: $ocean-blue;
+$sky-blue: #84CEEB;
+$ocean-blue: #5AB9EA;
+$mauve: #8860D0;
+$yellow-ish: #FFE28A;
+$cement: #C1C8E4;
+
+$sky-blue-darker: #387493;
+$ocean-blue-darker: #085bd8;
+$mauve-darker: #573e86;
+$yellow-ish-darker: #796c43;
+$cement-darker: #8e93a9;
+
+$primary-color: $sky-blue;
+$secondary-color: $mauve;
+
 // fonts
 $primary-font: "Open Sans", sans-serif;
 $secondary-font: "MyWebFont", sans-serif;
+
 // sizes
 $container: 1200px;
 $container-laptop: 1000px;

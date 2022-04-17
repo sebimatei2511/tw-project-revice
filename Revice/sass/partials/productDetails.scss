@@ -1,12 +1,12 @@
 .productDetails {
     width: 100%;
-    background-color: #84CEEB;
+    background-color: $primary-color;
     background-position: center;
     background-size: cover;
-    position: absolute;
+    position: relative;
 
     .product-box {
-        background: #8860D0;
+        background: $secondary-color;
         border-radius: 10px;
         width: 70%;
         margin: 120px auto;
@@ -30,7 +30,7 @@
 
 
     h1, h2, h3, h4 {
-        font-family: 'Open Sans';
+        font-family: $primary-font;
         font-style: normal;
         font-weight: 600;
         font-size: 40px;
@@ -49,7 +49,7 @@
     }
 
     p {
-        font-family: 'Open Sans';
+        font-family: $primary-font;
         font-style: normal;
         font-weight: 400;
         font-size: 25px;
@@ -79,7 +79,7 @@
     }
 
     ul {
-        font-family: 'Open Sans';
+        font-family: $primary-font;
         font-style: normal;
         font-weight: 400;
         font-size: 35px;
