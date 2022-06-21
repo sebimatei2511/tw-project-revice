@@ -2,6 +2,8 @@
 
 
 
+Sebi 21.06 - ora 19:35 - revizuit front-end, refăcută scalarea mult mai ok pe responsive » de preluat doar /css în principiu
+
 Sebi 17.04 - ora 23:36 - rezolvat footer-ul si ce s-a mai discutat, implementat variabile pt culori ca sa nu le mai repetam, comentat burger menu-ul pana cand va fi functionabil, curatat&aranjat codul, totul bine
 
 Rares 17.04 - ora 18:50 - crearea paginii de sign up + burger menu partial >> toate fisierele trb descarcate
