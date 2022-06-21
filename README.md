@@ -1,5 +1,4 @@
-# TW-Project
-# Revice
+# TW-Project - Revice
 # Team no. 8 - grupa A5
 
 
