@@ -1,5 +1,7 @@
 # TW-Project
 
+Team no. 8 - grupa A5
+
 
 
 Sebi 21.06 - ora 19:35 - revizuit front-end, refăcută scalarea mult mai ok pe responsive » de preluat doar /css în principiu
