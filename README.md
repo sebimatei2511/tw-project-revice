@@ -2,7 +2,7 @@
 # Team no. 8 - grupa A5
 
 
-Sebi 24.06 - ora 20:40 - diagrama C4 a fost creata si adaugata!
+Sebi 24.06 - ora 20:40 - diagrama C4 a fost creata si adaugata + GuideScholarly!
 
 Sebi 24.06 - ora 10:24 - create html-urile care mai erau necesare, modificat putin typography » de preluat .html-urile, /css, /sass
            - ora 12:55 - productList.html a fost sters si inlocuit de alte fisiere html !!
