@@ -1,6 +1,7 @@
 # TW-Project - Revice
 # Team no. 8 - grupa A5
 
+Rares 25.06 - ora 1:05 - postat proiect final in care am facut toata partea de Rest API si conexiunea cu front-end-ul
 
 Sebi 24.06 - ora 20:40 - diagrama C4 a fost creata si adaugata + GuideScholarly!
 
