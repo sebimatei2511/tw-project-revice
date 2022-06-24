@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Revice</title>
+    <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">-->
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/jquery-3.6.0.js" ></script>
+    <script src="/scripts/jquery-3.6.0.min.js" ></script>
+    <script src="/scripts/header.js" ></script>
+    <script src="/scripts/signupModal.js" ></script>
+</head>
+
+<body>
+
+
+    <header class="header panel">
+        <div class="header-content">
+            <a href="index">Revice</a>
+            <div class="header-content-right">
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log in</button>
+                <h2>Username</h2>
+                <div id="myLinks">
+                    <ul>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li> <a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+                <!-- Modal-ul pt login -->
+
+                <div id="id01" class="modal">
+
+                    <div class="login-panel animate">
+                        <h1>Log in</h1>
+                        <div class="flex-container-login">
+                            <label id="uname">Username:</label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label id="psw">Password:</label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button type="submit">Login</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+
+                        </div>
+                        <div class="alternative">
+                            <h4>Or sign-up using</h4>
+                            <a href="signup">Sign up.</a>
+                        </div>
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    </div>
+                </div>
+
+                <!-- pana aici -->
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="section">
+        <div class="section-element">
+            <a href="index" class="filterBtn">All</a>
+        </div>
+
+        <div class="section-element">
+            <a href="drones" class="filterBtn">Drones</a>
+        </div>
+
+        <div class="section-element">
+            <a href="phones" class="filterBtn">Phones</a>
+        </div>
+
+        <div class="section-element">
+            <a href="smartwatches" class="filterBtn">Smartwatches</a>
+        </div>
+
+        <div class="section-element">
+            <a href="laptops" class="filterBtn">Laptops</a>
+        </div>
+
+        <div class="section-element">
+            <a href="pcs" class="filterBtn">PCs</a>
+        </div>
+    </div>
+
+    <div class="products">
+        <div class="products-list">
+            <div class="products-elements">
+                <div class="child">
+                    <script>getAllProductsImage(20)</script>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="myImg_20" alt="desktop">
+                </div>
+                <div class="child">
+                    <script>
+                        getAllProducts(20)
+                    </script>
+                    <p id="product_description_20"></p>    
+                    <a href="/productDetails/1D" class="detailsBtn">More details</a>                
+                </div>
+            </div>
+            <div class="products-elements">
+                <div class="child">
+                    <script>getAllProductsImage(21)</script>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="myImg_21" alt="desktop">
+                </div>
+                <div class="child">
+                    <script>
+                        getAllProducts(21)
+                    </script>
+                    <p id="product_description_21"></p>    
+                    <a href="/productDetails/2D" class="detailsBtn">More details</a>                
+                </div>
+            </div>
+            <div class="products-elements">
+                <div class="child">
+                    <script>getAllProductsImage(22)</script>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="myImg_22" alt="desktop">
+                </div>
+                <div class="child">
+                    <script>
+                        getAllProducts(22)
+                    </script>
+                    <p id="product_description_22"></p>    
+                    <a href="/productDetails/3D" class="detailsBtn">More details</a>                
+                </div>
+            </div>
+            <div class="products-elements">
+                <div class="child">
+                    <script>getAllProductsImage(23)</script>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="myImg_23" alt="desktop">
+                </div>
+                <div class="child">
+                    <script>
+                        getAllProducts(23)
+                    </script>
+                    <p id="product_description_23"></p>    
+                    <a href="/productDetails/4D" class="detailsBtn">More details</a>                
+                </div>
+            </div>
+            <div class="products-elements">
+                <div class="child">
+                    <script>getAllProductsImage(24)</script>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="myImg_24" alt="desktop">
+                </div>
+                <div class="child">
+                    <script>
+                        getAllProducts(24)
+                    </script>
+                    <p id="product_description_24"></p>    
+                    <a href="/productDetails/5D" class="detailsBtn">More details</a>                
+                </div>
+            </div>
+            <div class="products-elements">
+                <div class="child">
+                    <script>getAllProductsImage(25)</script>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="myImg_25" alt="desktop">
+                </div>
+                <div class="child">
+                    <script>
+                        getAllProducts(25)
+                    </script>
+                    <p id="product_description_25"></p>    
+                    <a href="/productDetails/6D" class="detailsBtn">More details</a>                
+                </div>
+            </div>
+            <div class="products-elements">
+                <div class="child">
+                    <script>getAllProductsImage(26)</script>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="myImg_26" alt="desktop">
+                </div>
+                <div class="child">
+                    <script>
+                        getAllProducts(26)
+                    </script>
+                    <p id="product_description_26"></p>    
+                    <a href="/productDetails/7D" class="detailsBtn">More details</a>                
+                </div>
+            </div>
+            <div class="products-elements">
+                <div class="child">
+                    <script>getAllProductsImage(27)</script>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="myImg_27" alt="desktop">
+                </div>
+                <div class="child">
+                    <script>
+                        getAllProducts(27)
+                    </script>
+                    <p id="product_description_27"></p>    
+                    <a href="/productDetails/8D" class="detailsBtn">More details</a>                
+                </div>
+            </div>
+            <div class="products-elements">
+                <div class="child">
+                    <script>getAllProductsImage(28)</script>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="myImg_28" alt="desktop">
+                </div>
+                <div class="child">
+                    <script>
+                        getAllProducts(28)
+                    </script>
+                    <p id="product_description_28"></p>    
+                    <a href="/productDetails/9D" class="detailsBtn">More details</a>                
+                </div>
+            </div>
+            <div class="products-elements">
+                <div class="child">
+                    <script>getAllProductsImage(29)</script>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="myImg_29" alt="desktop">
+                </div>
+                <div class="child">
+                    <script>
+                        getAllProducts(29)
+                    </script>
+                    <p id="product_description_29"></p>    
+                    <a href="/productDetails/10D" class="detailsBtn">More details</a>                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <h1><a href="/userGuide">Web Technologies 2022 - UAIC</a></h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
