@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Revice</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="header panel">
+        <div class="header-content">
+            <a href="index.html">Revice</a>
+            <div class="header-content-right">
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log in</button>
+                <h2>Username</h2>
+                <div id="myLinks">
+                    <ul>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li> <a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+
+                <!-- Modal-ul pt login -->
+
+                <div id="id01" class="modal">
+
+                    <div class="login-panel animate">
+                        <h1>Log in</h1>
+                        <div class="flex-container-login">
+                            <label for="uname"><h2>Username:</h2></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><h2>Password:</h2></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button type="submit">Login</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+
+                        </div>
+                        <div class="alternative">
+                            <h4>Or sign-up using</h4>
+                            <a href="signup.html">Sign up.</a>
+                        </div>
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    </div>
+                </div>
+
+                <!-- pana aici -->
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="panel">
+        <div class="signup-panel">
+            <h1>Sign Up</h1>
+            <div class="flex-container-login">
+                <label for="signupUserName"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="signupUserName" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw-signup"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw-signup" required>
+
+                <label for="psw-confirm"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Confirm Password" name="psw-confirm" required>
+
+                <label>
+                    <input type="checkbox" name="remember"> Do you agree to our Terms & Privacy?
+                </label>
+
+            </div>
+
+            <div class="clearfix">
+                <button onclick="location.href='index.html'" type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-content">
+            <h1>Web Technologies 2022 - UAIC</h1>
+        </div>
+    </section>
+
+    <script src="scripts/jquery-3.6.0.js" type="text/javascript"></script>
+    <script src="scripts/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="scripts/header.js" type="text/javascript"></script>
+    <script src="scripts/signupModal.js" type="text/javascript"></script>
+
+</body>
+
+</html>
