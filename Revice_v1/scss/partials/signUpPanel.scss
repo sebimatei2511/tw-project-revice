@@ -1,0 +1,28 @@
+.panel {
+    position: relative;
+
+    .signup-panel {
+        position: relative;
+        padding: 25px;
+        max-width: 60%;
+        margin: 5% auto;
+        border: 2px solid #000000;
+        background-color: $cement;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        @media (max-width: $phone-max) {
+            width: 50%;
+        }
+    }
+
+    .clearfix {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .signupbtn {
+        width: 25%;
+        margin: auto 0;
+    }
+}
