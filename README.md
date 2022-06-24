@@ -2,6 +2,7 @@
 # Team no. 8 - grupa A5
 
 
+Sebi 24.06 - ora 10:24 - create html-urile care mai erau necesare, modificat putin typography » de preluat .html-urile, /css, /sass
 
 Sebi 21.06 - ora 19:35 - revizuit front-end, refăcută scalarea mult mai ok pe responsive » de preluat doar /css în principiu
 
